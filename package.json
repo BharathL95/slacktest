@@ -1,0 +1,17 @@
+{
+  "name": "slacktest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/InerLeeLofgren/slacktest.git",
+  "author": "<iner.lofgren@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "server": "nodemon index.js"
+  }
+}
